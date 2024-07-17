@@ -5,7 +5,7 @@ import NRDIA from '../../public/assets/nrdia.png';
 import IITP from '../../public/assets/clg.png';
 export function Header() {
     return (
-        <div className='flex justify-between'>
+        <div className='flex justify-between p-3'>
             <img src={NRDIA} alt="" className="navbar-image" />
             <nav className='bg-slate-600 text-white font-bold text-2xl min-h-21 flex items-center relative w-4/5 z-10 rounded-full h-20'>
                 <ul className="flex justify-around w-full">
