@@ -1,5 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
+import Left_carousel from '../components/Carousel/Left_carousel';
+import Right_Carousel from '../components/Carousel/Right_Carousel';
 // import { Carousel } from "@material-tailwind/react";
 
 export function Home() {
@@ -11,9 +13,9 @@ export function Home() {
             </p>
         </div>
         <div className="grid grid-cols-4 bg-slate-200 mx-20 min-h-full my-16">
-            <div className="col-span-1 flex justify-center">Professor</div>
+            <div className="col-span-1 flex justify-center"><Left_carousel/></div>
             <div className="col-span-2 border-white border-2 aspect-video"><Carousel/></div>
-            <div className="col-span-1 flex justify-center">Professor</div>
+            <div className="col-span-1 flex justify-center"><Right_Carousel/></div>
         </div>
         </>
     );
