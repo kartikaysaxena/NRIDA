@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import { Link, useResolvedPath, useMatch } from 'react-router-dom';
-import NRDIA from '../../public/assets/nrdia.png';
-import IITP from '../../public/assets/clg.png';
+import NRDIA from '/assets/nrdia.png';
+import IITP from '/assets/clg.png';
 export function Header() {
     return (
         <div className='flex justify-between p-3'>
