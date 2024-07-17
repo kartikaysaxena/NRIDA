@@ -21,6 +21,6 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<Faq />} />
         </Routes>
-      </BrowserRouter>
+    </BrowserRouter>
   )
 }
