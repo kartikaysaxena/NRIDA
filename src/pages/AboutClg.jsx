@@ -12,7 +12,7 @@ export function AboutClg()
                     <p>IIT Patna has ten departments: These are Computer Science & Engineering, Electrical Engineering, Mechanical Engineering, Chemical and Biochemical Engineering, Civil & Environmental Engineering, Materials Science & Engineering, Chemistry, Physics, Mathematics and Humanities & Social Science departments.</p>
                     <br/>
                     <p>IIT Patna campus is located at Bihta which is approximately 40 kms from Patna. For driving directions and contact details, please point your browser to the following link:</p>
-                    <br/><br/>
+                    <br/>
                     <a href="https://www.iitp.ac.in/index.php/en-us/contact?id=190" className="text-blue-500 hover:text-blue-300">https://www.iitp.ac.in/index.php/en-us/contact?id=190</a>      
                 </div>
                 <div className="bg-red-200 col-span-5">
