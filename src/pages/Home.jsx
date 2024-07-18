@@ -2,7 +2,11 @@
 import React, { useState } from 'react';
 import Left_carousel from '../components/Carousel/Left_carousel';
 import Right_Carousel from '../components/Carousel/Right_Carousel';
-// import { Carousel } from "@material-tailwind/react";
+import iitp1 from '/assets/iitp1.jpeg';
+import iitp2 from '/assets/iitp2.jpeg';
+import iitp3 from '/assets/iitp3.jpeg';
+import iitp4 from '/assets/iitp4.jpg';
+import iitp5 from '/assets/iitp5.webp';
 
 export function Home() {
     return (
@@ -25,9 +29,11 @@ export function Home() {
 // ALONG WITH AN ARRAY OF IMAGES
 
 const images = [
-  "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80",
-  "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-  "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+  iitp5,
+  iitp1,
+  iitp2,
+  iitp3,
+  iitp4
 ];
 
 function Carousel() {

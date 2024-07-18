@@ -6,7 +6,7 @@ export default function Right_Carousel() {
     {carousel.Right_carousel_images.map((data)=> <div className="flex flex-col items-center" key={data.Name}>
       <img className="w-[65px]" src={data.Image} alt="" />
       <p>{data.Name}</p>
-      <a href={data.profile}>Profile</a>
+      <a className="text-blue-400 hover:text-blue-200" href={data.profile}>Profile</a>
     </div>)}
   </div>
   )

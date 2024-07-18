@@ -30,27 +30,27 @@ const Left_carousel_images = [
 const Right_carousel_images = [
     {
       Name: "Dr. Sudhir Varma",
-      profile: "",
+      profile: "https://www.iitp.ac.in/people-10/cee-faculty?view=article&id=293&catid=2",
       Image : Assist_profCEE
     },
     {
-        Name: "Dr. Sudhir Varma",
-        profile: "",
+        Name: "Dr. Ramakrishna Bag",
+        profile: "https://www.iitp.ac.in/people-10/cee-faculty?view=article&id=361&catid=2",
         Image : Faculty
     },
     {
-        Name: "Dr. Sudhir Varma",
-        profile: "",
+        Name: "Dr. Koushik Roy",
+        profile: "https://www.koushikroy.com/",
         Image : Faculty_2
     },
     {
-        Name: "Dr. Sudhir Varma",
-        profile: "",
+        Name: "Dr. Anilkumar Bachu",
+        profile: "https://www.iitp.ac.in/~anilkumar/",
         Image : Faculty_3
     },
     {
-        Name: "Dr. Sudhir Varma",
-        profile: "",
+        Name: "Dr. Syed K. K. Hussaini",
+        profile: "https://www.iitp.ac.in/people-10/cee-faculty?view=article&id=279&catid=2",
         Image : Faculty_4
     },
   ];
