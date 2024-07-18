@@ -1,10 +1,10 @@
-import Director from "../../public/assets/Director.png";
-import HoD_CEE from "../../public/assets/HoD_CEE.png";
-import Assist_profCEE from "../../public/assets/Assist_profCEE.png";
-import Faculty from "../../public/assets/Faculty.png";
-import Faculty_2 from "../../public/assets/Faculty_2.png";
-import Faculty_3 from "../../public/assets/Faculty_3.png";
-import Faculty_4 from "../../public/assets/Faculty_4.png";
+import Director from "/public/assets/Director.png";
+import HoD_CEE from "/public/assets/HoD_CEE.png";
+import Assist_profCEE from "/public/assets/Assist_profCEE.png";
+import Faculty from "/public/assets/Faculty.png";
+import Faculty_2 from "/public/assets/Faculty_2.png";
+import Faculty_3 from "/public/assets/Faculty_3.png";
+import Faculty_4 from "/public/assets/Faculty_4.png";
 const Left_carousel_images = [
   {
     Name: "Professor T. N. Singh",

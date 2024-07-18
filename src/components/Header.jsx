@@ -5,9 +5,9 @@ import NRDIA from '/assets/nrdia.png';
 import IITP from '/assets/clg.png';
 export function Header() {
     return (
-        <div className='flex justify-between p-3'>
-            <img src={NRDIA} alt="" className="navbar-image" />
-            <nav className='bg-slate-600 text-white font-bold text-2xl min-h-21 flex items-center relative w-4/5 z-10 rounded-full h-20'>
+        <div className='flex justify-between p-2 pb-0 items-center'>
+            <img src={NRDIA} alt="" className="navbar-image" style={{height: '85px'}} />
+            <nav className='bg-slate-600 text-white font-bold text-2xl flex items-center relative w-4/5 z-10 rounded-full h-14'>
                 <ul className="flex justify-around w-full">
                     <CustomLink to="/">Home</CustomLink>
                     <CustomLink to="/aboutclg">About IIT Patna</CustomLink>
@@ -17,7 +17,7 @@ export function Header() {
                     <CustomLink to="/contact">Contact Us</CustomLink>
                 </ul>
             </nav>
-            <img src={IITP} alt="" className="navbar-image" />
+            <img src={IITP} alt="" className="navbar-image" style={{height: '85px'}}/>
         </div>
     );
 }

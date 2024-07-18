@@ -7,14 +7,14 @@ import Right_Carousel from '../components/Carousel/Right_Carousel';
 export function Home() {
     return (
         <>
-        <div className="flex justify-center items-center text-xl w-3/5 mx-auto my-5">
+        <div className="flex justify-center items-center text-xl w-3/5 mx-auto">
             <p className="text-center font-semibold text-2xl">5-Days Workshop on “Design and Quality Control of Flexible and Rigid Pavements”
                 24th to 28th July 2024, Funded by NRIDA Ministry of Rural Development
             </p>
         </div>
-        <div className="grid grid-cols-4 bg-slate-200 mx-20 min-h-full my-16">
+        <div className="grid grid-cols-7 mx-10 min-h-full">
             <div className="col-span-1 flex justify-center"><Left_carousel/></div>
-            <div className="col-span-2 border-white border-2 aspect-video"><Carousel/></div>
+            <div className="col-span-5 aspect-video"><Carousel/></div>
             <div className="col-span-1 flex justify-center"><Right_Carousel/></div>
         </div>
         </>
@@ -50,7 +50,7 @@ function Carousel() {
   };
 
   return (
-    <div className="max-w-full h-full w-full m-auto py-5 px-4 relative group">
+    <div className="max-w-full h-full w-full py-2 px-4 relative group">
       <div
         style={{ backgroundImage: `url(${images[currentIndex]})` }}
         className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
