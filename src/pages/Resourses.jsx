@@ -2,10 +2,10 @@ export function Resources() {
   return (
     <>
       <div className=" w-[80vw] mx-auto mb-10 flex flex-col justify-center h-[55vh]">
-        <div className="text-start text-4xl font-bold pb-10 mx-auto">
+        <div className="text-start text-lg md:text-2xl xl:text-4xl font-bold pb-4 mx-auto">
           Resources
         </div>
-        <ol className="flex flex-col w-[70vw] justify-center list-decimal gap-4 mx-auto text-2xl">
+        <ol className="flex flex-col  md:w-[70vw] justify-center list-decimal gap-4 mx-auto text-sm md:text-lg xl:text-2xl">
           <li>
             IRC:SP:72 - 2015, Guidelines for the Design of Flexible Pavements
             for Low Volume Rural Roads
@@ -26,12 +26,12 @@ export function Resources() {
 
       <div className="mx-auto flex justify-evenly">
         <div className="w-[40vw] flex flex-col text-center">
-            <p className="text-start text-4xl font-bold pb-10 mx-auto">Web Development Team</p>
-            <p className="text-xl font-semibold">Kartikay Saxena, Devansh Rai, Vinay Khedkar</p>
+            <p className="text-[16px] md:text-2xl xl:text-4xl font-bold md:pb-3 xl:pb-10 mx-auto">Web Development Team</p>
+            <p className="md:text-lg xl:text-2xl text-sm">Kartikay Saxena, Devansh Rai, Vinay Khedkar</p>
         </div>
         <div className="w-[40vw] flex flex-col text-center">
-            <p className="text-start text-4xl font-bold pb-10 mx-auto">Organizing Volunteers</p>
-            <p className="text-xl font-semibold">Ajit Kumar, Deepansh Yadav, Koushal Kumar, Rajkamal, Ashish Kumar, Ashutosh Raj</p>
+            <p className="text-[16px] md:text-2xl xl:text-4xl font-bold md:pb-3 xl:pb-10 mx-auto">Organizing Volunteers</p>
+            <p className="md:text-lg xl:text-2xl text-sm">Ajit Kumar, Deepansh Yadav, Koushal Kumar, Rajkamal, Ashish Kumar, Ashutosh Raj</p>
         </div>
       </div>
     </>
