@@ -1,3 +1,15 @@
+/* eslint-disable no-unused-vars */
+
+import iitp1 from '/assets/iitp1.jpeg';
+import iitp2 from '/assets/iitp2.jpeg';
+import iitp3 from '/assets/iitp3.jpeg';
+import iitp4 from '/assets/iitp4.jpg';
+import iitp5 from '/assets/iitp5.webp';
+import iitp6 from '/assets/iitp6.jpg';
+import iitp7 from '/assets/iitp7.jpeg';
+import iitp8 from '/assets/iitp8.jpg';
+import {Carousel} from '../components/Carousel/Carousel';
+
 export function AboutClg()
 {
     return(
@@ -15,12 +27,28 @@ export function AboutClg()
                     <br/>
                     <a href="https://www.iitp.ac.in/index.php/en-us/contact?id=190" className="text-blue-500 hover:text-blue-300">https://www.iitp.ac.in/index.php/en-us/contact?id=190</a>      
                 </div>
-                <div className="bg-red-200 col-span-5">
-                    <h1 className="text-center pt-80 font-bold">IMAGES</h1>
+                <div className="col-span-5 aspect-video">
+                    <CarouselF/>
                 </div>
-            </div>
-            
+            </div>  
         </div>
-        
     );
+}
+
+const images = [
+    iitp1,
+    iitp2,
+    iitp3,
+    iitp4,
+    iitp5,
+    iitp6,
+    iitp7,
+    iitp8
+];
+
+function CarouselF()
+{
+    return (
+      <Carousel images={images} />
+    )
 }

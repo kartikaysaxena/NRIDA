@@ -1,3 +1,10 @@
+/* eslint-disable no-unused-vars */
+import nrdia1 from '/assets/nrdia1.jfif';
+import nrdia2 from '/assets/nrdia2.jpg';
+import nrdia3 from '/assets/nrdia3.jpg';
+import nrdia4 from '/assets/nrdia4.jpg';
+import {Carousel} from '../components/Carousel/Carousel';
+
 export function About() {
     return (
         <div className="items-center max-w-full p-5 pt-5 pb-10">
@@ -16,13 +23,25 @@ export function About() {
                     <a href="https://pmgsy.nic.in/" className="text-blue-500 hover:text-blue-300">https://pmgsy.nic.in/
                     </a>
                 </div>
-                <div className="col-span-5 bg-red-200">
-                    <h1 className="text-center pt-72 font-bold">IMAGES</h1>
+                <div className="col-span-5 aspect-video">
+                        <CarouselF/>
                 </div>
             </div>
-
-            
         </div>
-
     );
 }
+
+
+const images = [
+    nrdia1,
+    nrdia2,
+    nrdia3,
+    nrdia4
+  ];
+  
+  function CarouselF()
+  {
+      return (
+        <Carousel images={images} />
+      )
+  }
