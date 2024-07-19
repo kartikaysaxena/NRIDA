@@ -1,10 +1,9 @@
-export function Contact()
-{
-    return(
+export function Contact() {
+    return (
         <div className="items-center max-w-full px-80 pt-20">
             <h1 className="text-4xl font-bold text-center">Contact Us</h1>
-            <div className="p-10 font-normal text-xl max-w-7xl m-5 grid grid-cols-5">
-                <div className="bg-blue-100 p-5 col-span-3">
+            <div className="p-10 font-normal text-xl max-w-7xl m-5 gap-4 flex">
+                <div className="bg-blue-100 p-5 mr-4">
                     <p>Sudhir Varma, Ph.D.</p>
                     <br/>
                     <p>Assistant Professor</p>
@@ -20,11 +19,19 @@ export function Contact()
                     <p>Phone: 0612-3028705, Mob: +91 8434081334</p>
                     <br/>
                 </div>
-                <div className="ml-20 bg-red-300 col-span-2 flex flex-col justify-center px-7">
-                    <p>Here would be map showing location of IIT Patna</p>
-                </div>    
+                <div className="col-span-2 flex flex-col items-center">
+                    <p className="mb-4">IIT Patna</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.08187194858!2d84.8487163105081!3d25.535649617815988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed577f6954a4ab%3A0x6ce8f1b9fc2aa02a!2sIndian%20Institute%20of%20Technology%2C%20Patna!5e0!3m2!1sen!2sin!4v1721372213080!5m2!1sen!2sin"
+                        width="400"
+                        height="300"
+                        style={{ border: 0 }}
+                        allowFullScreen=""
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                    />
+                </div>
             </div>
         </div>
-        
     );
 }
