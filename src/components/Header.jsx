@@ -13,7 +13,7 @@ export function Header() {
                     <CustomLink to="/aboutclg">About IIT Patna</CustomLink>
                     <CustomLink to="/aboutnrdia">About NRDIA</CustomLink>
                     <CustomLink to="/schedule">Schedule</CustomLink>
-                    <CustomLink to="/faq">FAQs</CustomLink>
+                    <CustomLink to="/faq">Resources</CustomLink>
                     <CustomLink to="/contact">Contact Us</CustomLink>
                 </ul>
             </nav>
