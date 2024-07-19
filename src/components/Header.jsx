@@ -5,9 +5,9 @@ import NRIDA from '/assets/NRIDA.png';
 import IITP from '/assets/clg.png';
 export function Header() {
     return (
-        <div className='flex justify-between p-2 pb-0 items-center'>
+        <div className='flex justify-between p-2 pb-0 items-center h-[85px]'>
             <img src={NRIDA} alt="" className="navbar-image" style={{height: '85px'}} />
-            <nav className='bg-slate-600 text-white font-bold text-2xl flex items-center relative w-4/5 z-10 rounded-full h-14'>
+            <nav className='flex bg-slate-600 text-white font-bold text-2xl items-center w-4/5 z-10 rounded-full h-14'>
                 <ul className="flex justify-around w-full">
                     <CustomLink to="/">Home</CustomLink>
                     <CustomLink to="/aboutclg">About IIT Patna</CustomLink>
