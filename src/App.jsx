@@ -5,9 +5,9 @@ import { About } from './pages/About';        // about nrdia
 import {AboutClg} from './pages/AboutClg';     // about clg
 import {Schedule} from './pages/Schedule';     // schedule
 import {Contact} from './pages/Contact';       // contact
-import {Faq} from './pages/Faq';               // faq
-import {Header} from './components/Header';
+import {Header} from './components/Header';     // resources
 import "./app.css";
+import { Resources } from './pages/Resourses';
 
 export default function App() {
   return (
@@ -19,7 +19,7 @@ export default function App() {
           <Route path="/aboutclg" element={<AboutClg />} />
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/faq" element={<Faq />} />
+          <Route path="/faq" element={<Resources />} />
         </Routes>
     </BrowserRouter>
   )
