@@ -15,7 +15,7 @@ export function AboutClg()
     return(
         <div className="items-center max-w-full p-5 pt-5 pb-10">
             <div className="grid grid-cols-8 mt-5">
-                <div className="font-normal p-2 text-xl min-w-full col-span-3">
+                <div className="font-normal p-2 text-xl min-w-full col-span-8 lg:col-span-3">
                     <h1 className="text-4xl font-bold text-center mb-10">About IIT Patna</h1>
                     <p>Indian Institute of Technology Patna is one of the new IITs established by an Act of the Indian Parliament on August 06, 2008.</p>
                     <br/>
@@ -27,7 +27,7 @@ export function AboutClg()
                     <br/>
                     <a href="https://www.iitp.ac.in/index.php/en-us/contact?id=190" className="text-blue-500 hover:text-blue-300">https://www.iitp.ac.in/index.php/en-us/contact?id=190</a>      
                 </div>
-                <div className="col-span-5 aspect-video">
+                <div className="col-span-8 lg:col-span-5 aspect-video">
                     <CarouselF/>
                 </div>
             </div>  

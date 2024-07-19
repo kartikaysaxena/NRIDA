@@ -9,7 +9,7 @@ export function About() {
     return (
         <div className="items-center max-w-full p-5 pt-5 pb-10">
             <div className="grid grid-cols-8 mt-5">
-                <div className="font-normal p-3 text-xl min-w-full col-span-3">
+                <div className="font-normal p-3 text-xl min-w-full col-span-8 lg:col-span-3">
                     <h1 className="text-4xl font-bold text-center mb-10">About NRIDA</h1>
                     <p>National Rural Infrastructure Development Agency (NRIDA) was registered as a society on 14th January, 2002 under the name ‘National Rural Roads Development Agency’ (NRRDA)with the basic objective of extending technical and management support to the Governmentof India in implementation of Pradhan Mantri Gram Sadak Yojana (PMGSY). It got its newname NRIDA in May 2017 after inclusion of rural housing activities in its scope of activities.
                     </p>
@@ -23,7 +23,7 @@ export function About() {
                     <a href="https://pmgsy.nic.in/" className="text-blue-500 hover:text-blue-300">https://pmgsy.nic.in/
                     </a>
                 </div>
-                <div className="col-span-5 aspect-video">
+                <div className="col-span-8 lg:col-span-5 aspect-video">
                         <CarouselF/>
                 </div>
             </div>
