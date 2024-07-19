@@ -1,7 +1,7 @@
 export function Resources() {
   return (
     <>
-      <div className=" w-[80vw] mx-auto my-6 mb-10 flex flex-col justify-center h-[60vh]">
+      <div className=" w-[80vw] mx-auto mb-10 flex flex-col justify-center h-[55vh]">
         <div className="text-start text-4xl font-bold pb-10 mx-auto">
           Resources
         </div>
