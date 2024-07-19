@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
-import nrdia1 from '/assets/nrdia1.jfif';
-import nrdia2 from '/assets/nrdia2.jpg';
-import nrdia3 from '/assets/nrdia3.jpg';
-import nrdia4 from '/assets/nrdia4.jpg';
+import NRIDA1 from '/assets/NRIDA1.jfif';
+import NRIDA2 from '/assets/NRIDA2.jpg';
+import NRIDA3 from '/assets/NRIDA3.jpg';
+import NRIDA4 from '/assets/NRIDA4.jpg';
 import {Carousel} from '../components/Carousel/Carousel';
 
 export function About() {
@@ -10,7 +10,7 @@ export function About() {
         <div className="items-center max-w-full p-5 pt-5 pb-10">
             <div className="grid grid-cols-8 mt-5">
                 <div className="font-normal p-3 text-xl min-w-full col-span-3">
-                    <h1 className="text-4xl font-bold text-center mb-10">About NRDIA</h1>
+                    <h1 className="text-4xl font-bold text-center mb-10">About NRIDA</h1>
                     <p>National Rural Infrastructure Development Agency (NRIDA) was registered as a society on 14th January, 2002 under the name ‘National Rural Roads Development Agency’ (NRRDA)with the basic objective of extending technical and management support to the Governmentof India in implementation of Pradhan Mantri Gram Sadak Yojana (PMGSY). It got its newname NRIDA in May 2017 after inclusion of rural housing activities in its scope of activities.
                     </p>
                     <br />
@@ -33,10 +33,10 @@ export function About() {
 
 
 const images = [
-    nrdia1,
-    nrdia2,
-    nrdia3,
-    nrdia4
+    NRIDA1,
+    NRIDA2,
+    NRIDA3,
+    NRIDA4
   ];
   
   function CarouselF()
