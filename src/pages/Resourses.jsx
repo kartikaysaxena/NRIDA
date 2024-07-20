@@ -1,7 +1,7 @@
 export function Resources() {
   return (
     <>
-      <div className=" w-[80vw] mx-auto mb-10 flex flex-col justify-center h-[55vh]">
+      <div className=" w-[80vw] mx-auto mb-10 mt-10 flex flex-col justify-center h-[55vh]">
         <div className="text-start text-lg md:text-2xl xl:text-4xl font-bold pb-4 mx-auto">
           Resources
         </div>
@@ -25,11 +25,11 @@ export function Resources() {
       </div>
 
       <div className="mx-auto flex justify-evenly">
-        <div className="w-[40vw] flex flex-col text-center">
+        <div className="w-[40vw] mt-3 flex flex-col text-center">
             <p className="text-[16px] md:text-2xl xl:text-4xl font-bold md:pb-3 xl:pb-10 mx-auto">Web Development Team</p>
             <p className="md:text-lg xl:text-2xl text-sm">Kartikay Saxena, Devansh Rai, Vinay Khedkar</p>
         </div>
-        <div className="w-[40vw] flex flex-col text-center">
+        <div className="w-[40vw] mt-3 flex flex-col text-center">
             <p className="text-[16px] md:text-2xl xl:text-4xl font-bold md:pb-3 xl:pb-10 mx-auto">Organizing Volunteers</p>
             <p className="md:text-lg xl:text-2xl text-sm">Ajit Kumar, Deepansh Yadav, Koushal Kumar, Rajkamal, Ashish Kumar, Ashutosh Raj</p>
         </div>
