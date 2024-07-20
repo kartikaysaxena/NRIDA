@@ -15,15 +15,15 @@ import iitp8 from '/assets/iitp8.jpg';
 export function Home() {
     return (
         <>
-        <div className="flex justify-center items-center text-xl w-3/5 mx-auto">
+        <div className="flex justify-center items-center text-xl w-4/5 mx-auto mb-5">
             <p className="text-center font-semibold text-2xl">5-Days Workshop on “Design and Quality Control of Flexible and Rigid Pavements”
                 24th to 28th July 2024, Funded by NRIDA Ministry of Rural Development
             </p>
         </div>
-        <div className="grid grid-cols-7 mx-10 min-h-full">
-            <div className="col-span-1 flex justify-center"><Left_carousel/></div>
-            <div className="col-span-5 aspect-video"><CarouselF/></div>
-            <div className="col-span-1 flex justify-center"><Right_Carousel/></div>
+        <div className="flex flex-wrap justify-between mx-10 min-h-full mt-5 mb-5">
+            <div className="w-full sm:w-auto flex justify-center mb-4"><Left_carousel/></div>
+            <div className="w-full sm:w-1/2 aspect-video mb-5"><CarouselF/></div>
+            <div className="w-full sm:w-auto flex justify-center mt-4 mb-4"><Right_Carousel/></div>
         </div>
         </>
     );
