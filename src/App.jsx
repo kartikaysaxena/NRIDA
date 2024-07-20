@@ -5,7 +5,7 @@ import { About } from './pages/About';        // about NRIDA
 import {AboutClg} from './pages/AboutClg';     // about clg
 import {Schedule} from './pages/Schedule';     // schedule
 import {Contact} from './pages/Contact';       // contact
-import {Header} from './components/Header';     // resources
+import {Header} from './components/Header/Header';     // resources
 import "./app.css";
 import { Resources } from './pages/Resourses';
 
