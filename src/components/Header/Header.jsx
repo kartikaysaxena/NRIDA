@@ -51,7 +51,7 @@ export function Header() {
 
       <button onClick={()=>setNav(!Nav)}
                 type="button"
-                className=" inline-flex items-center justify-center rounded-md p-2 text-black focus:outline-none focus:ring-1 focus:ring-inset focus:ring-white"
+                className=" inline-flex sm:hidden items-center justify-center rounded-md p-2 text-black focus:outline-none focus:ring-1 focus:ring-inset focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
