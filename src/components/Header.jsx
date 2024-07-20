@@ -33,7 +33,7 @@ export function Header() {
                                 <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"><Link to="/aboutclg">About</Link></p>
                                 <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"><Link to="/aboutNRIDA">NRIDA</Link></p>
                                 <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"><Link to="/schedule">Schedule</Link></p>
-                                <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"><Link to="/faq">FAQ</Link></p>
+                                <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"><Link to="/faq">Resources</Link></p>
                                 <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"><Link to="/contact">Contact</Link></p>
                             </div>
                             </div>
@@ -47,7 +47,7 @@ export function Header() {
                                 <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"><Link to="/aboutclg">About</Link></p>
                                 <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"><Link to="/aboutNRIDA">NRIDA</Link></p>
                                 <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"><Link to="/schedule">Schedule</Link></p>
-                                <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"><Link to="/faq">FAQ</Link></p>
+                                <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"><Link to="/faq">Resources</Link></p>
                                 <p className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"><Link to="/contact">Contact</Link></p>
                             </div>
                         </div>
